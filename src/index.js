@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { HashRouter, Route, Switch } from 'react-router-dom';
+import Contact from './Contact';
+import Resume from './Resume';
+import Projects from './Projects';
+import Nav from './Nav';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <HashRouter basename="/">
+    <Switch>
+      <Route exact path="/" exact render={(props) => <App />} />
+      <Route path="/portfolio" exact render={(props) => <Projects />} />
+      <Route path="/resume" exact render={(props) => <Resume />} />
+      <Route path="/contact" exact render={(props) => <Contact />} />
+    </Switch>
+  </HashRouter>,
   document.getElementById('root')
 );
 
