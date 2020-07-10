@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
+import traveltongue from './images/traveltongue.jpg';
+import artcollect from './images/artcollect.jpg';
 
 export default class Projects extends Component {
   render() {
@@ -7,28 +9,50 @@ export default class Projects extends Component {
       <div>
         <Nav />
         <section class="mw7 center avenir">
-          <h2 class="baskerville fw1 ph3 ph0-l">News</h2>
+          <h2 class="baskerville fw1 ph3 ph0-l">Projects</h2>
           <article class="bt bb b--black-10">
-            <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+            <a
+              class="db pv4 ph3 ph0-l no-underline black dim"
+              target="_blank"
+              href="https://traveltongue.netlify.app"
+            >
               <div class="flex flex-column flex-row-ns">
                 <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
                   <img
-                    src="http://mrmrs.github.io/photos/cpu.jpg"
+                    src={traveltongue}
                     class="db"
-                    alt="Photo of a dimly lit room with a computer interface terminal."
+                    alt="Snapshot photo of a webpage"
                   />
                 </div>
                 <div class="w-100 w-60-ns pl3-ns">
-                  <h1 class="f3 fw1 baskerville mt0 lh-title">
-                    Tech Giant Invests Huge Money to Build a Computer Out of
-                    Science Fiction
-                  </h1>
-                  <p class="f6 f5-l lh-copy">
-                    The tech giant says it is ready to begin planning a quantum
-                    computer, a powerful cpu machine that relies on subatomic
-                    particles instead of transistors.
+                  <h1 class="f3 fw1 baskerville mt0 lh-title">TravelTongue</h1>
+                  <p class="f6 fw5 f5-l lh-copy">
+                    TravelTongue is a web app that allows users to discover
+                    local dishes from around the world.{' '}
                   </p>
-                  <p class="f6 lh-copy mv0">By Robin Darnell</p>
+                  <p>
+                    Developed a Rails API with RESTful endpoints for users,
+                    dishes and locations
+                  </p>
+                  <p class="f6 f5-l lh-copy">
+                    Utilized JSON Web Tokens and local storage to store
+                    encrypted user information traveltongue.jpgclient-side and
+                    bcrypt server-side{' '}
+                  </p>
+                  <p class="f6 f5-l lh-copy">
+                    Implemented GoogleMaps and World Bank API to render a
+                    dynamic world map{' '}
+                  </p>
+                  <p class="f6 f5-l lh-copy">
+                    Created pop up modals using pure CSS which allow users to
+                    add new dishes seamlessly
+                  </p>
+                  <p class="f6 f5-l lh-copy">
+                    Managed state, props and store in React and Redux for
+                    scalability
+                  </p>
+
+                  {/* <p class="f6 lh-copy mv0">By Robin Darnell</p> */}
                 </div>
               </div>
             </a>
@@ -38,28 +62,45 @@ export default class Projects extends Component {
               <div class="flex flex-column flex-row-ns">
                 <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
                   <img
-                    src="http://mrmrs.github.io/photos/warehouse.jpg"
+                    src={artcollect}
                     class="db"
                     alt="Photo of a warehouse with stacked shelves."
                   />
                 </div>
                 <div class="w-100 w-60-ns pl3-ns">
-                  <h1 class="f3 fw1 baskerville mt0 lh-title">
-                    Warehouse Prices Are Fast on the Rise
-                  </h1>
-                  <p class="f6 f5-l lh-copy">
-                    A warehouse is a commercial building for storage of goods.
-                    Warehouses are used by manufacturers, importers, exporters,
-                    wholesalers, transport businesses, customs, etc. They are
-                    usually large plain buildings in industrial areas of cities,
-                    towns and villages.
+                  <h1 class="f3 fw1 baskerville mt0 lh-title">ArtCollect</h1>
+                  <p class="f6 fw5 f5-l lh-copy">
+                    artCollect is an app that allows you to discover artworks
+                    and share your favorite pieces in your own collection.
                   </p>
-                  <p class="f6 lh-copy mv0">By Robin Darnell</p>
+                  <p class="f6 f5-l lh-copy">
+                    Developed a Rails API with RESTful endpoints for users,
+                    artworks and comments
+                  </p>
+                  <p class="f6 f5-l lh-copy">
+                    Utilized JSON Web Tokens and local storage to store
+                    encrypted user information client-side and bcrypt
+                    server-side
+                  </p>
+                  <p class="f6 f5-l lh-copy">
+                    Built out full-stack Create, Read, Update and Delete actions
+                    to give comprehensive functionality
+                  </p>
+                  <p class="f6 f5-l lh-copy">
+                    Implemented the StackGrid CSS library to create a responsive
+                    image gallery
+                  </p>
+                  <p class="f6 f5-l lh-copy">
+                    Managed state, props and store in React and Redux for
+                    scalability{' '}
+                  </p>
+
+                  {/* <p class="f6 lh-copy mv0">By Robin Darnell</p> */}
                 </div>
               </div>
             </a>
           </article>
-          <article class="bb b--black-10">
+          {/* <article class="bb b--black-10">
             <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
               <div class="flex flex-column flex-row-ns">
                 <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
@@ -84,7 +125,7 @@ export default class Projects extends Component {
                 </div>
               </div>
             </a>
-          </article>
+          </article> */}
         </section>
       </div>
     );

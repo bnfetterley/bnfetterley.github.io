@@ -6,7 +6,7 @@ import resume from './resume.png';
 export default class Resume extends Component {
   render() {
     return (
-      <div>
+      <div class="  v-mid  ph6-ns ">
         <Nav />
         <a
           target="_blank"
@@ -14,6 +14,7 @@ export default class Resume extends Component {
           class="menupics"
         >
           <img
+            // class="dtc"
             src={resume}
             display="flex"
             // display: block;
