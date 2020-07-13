@@ -2,12 +2,19 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 import traveltongue from './images/traveltongue.jpg';
 import artcollect from './images/artcollect.jpg';
+import NewWindow from 'react-new-window';
 
 export default class Projects extends Component {
-  onclicklinks(e) {
-    e.preventDefault();
-    window.open('https://traveltongue-backend.herokuapp.com/');
-    window.open('https://traveltongue.netlify.app');
+  onclicklinks() {
+    // console.log('event hit');
+
+    window.open(
+      'https://traveltongue-backend.herokuapp.com/',
+      'https://traveltongue.netlify.app'
+    );
+    // window.open('https://traveltongue.netlify.app');
+
+    // <NewWindow url='https://traveltongue.netlify.app'/>
   }
   render() {
     return (
@@ -19,6 +26,7 @@ export default class Projects extends Component {
             {/* <a
               class="db pv4 ph3 ph0-l no-underline black dim"
               target="_blank"
+              href="#"
               // href="https://traveltongue.netlify.app"
               // href="https://traveltongue.netlify.app"
               onClick={(e) => this.onclicklinks}
@@ -33,7 +41,7 @@ export default class Projects extends Component {
                   alt="Snapshot photo of a webpage"
                 />
               </div>
-              <div class="w-100 w-60-ns pl3-ns">
+              <div onClick={this.onclicklinks} class="w-100 w-60-ns pl3-ns">
                 <p></p>
                 <h1 class="f3 fw1 baskerville mt0 lh-title">TravelTongue</h1>
                 <p class="f6 fw5 f5-l lh-copy">
@@ -62,7 +70,7 @@ export default class Projects extends Component {
                   scalability
                 </p>
                 <p class="f6 fw5 f5-l lh-copy">
-                  See it live by clicking below:{' '}
+                  See it live by running both front and backend below:{' '}
                 </p>
                 <p>
                   <a target="_blank" href="https://traveltongue.netlify.app">
@@ -117,6 +125,24 @@ export default class Projects extends Component {
                   <p class="f6 f5-l lh-copy">
                     Managed state, props and store in React and Redux for
                     scalability{' '}
+                  </p>
+
+                  <p class="f6 fw5 f5-l lh-copy">
+                    See it live by running both front and backend below:{' '}
+                  </p>
+                  <p>
+                    <a
+                      target="_blank"
+                      href="https://artcollect-frontend.netlify.app/"
+                    >
+                      frontend
+                    </a>{' '}
+                    <a
+                      target="_blank"
+                      href="https://artcollect-backend.herokuapp.com/"
+                    >
+                      backend
+                    </a>
                   </p>
 
                   {/* <p class="f6 lh-copy mv0">By Robin Darnell</p> */}
