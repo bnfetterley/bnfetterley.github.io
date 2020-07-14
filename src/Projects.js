@@ -43,7 +43,18 @@ export default class Projects extends Component {
               </div>
               <div onClick={this.onclicklinks} class="w-100 w-60-ns pl3-ns">
                 <p></p>
-                <h1 class="f3 fw1 baskerville mt0 lh-title">TravelTongue</h1>
+                <h1 class="f3 fw1 baskerville mt0 lh-title">
+                  TravelTongue{' '}
+                  <a
+                    target="_blank"
+                    href="https://github.com/bnfetterley/traveltongue_frontend"
+                  >
+                    <img
+                      class="w2 h2 w2-ns h2-ns br-100"
+                      src="https://image.flaticon.com/icons/svg/2111/2111432.svg"
+                    />
+                  </a>
+                </h1>
                 <p class="f6 fw5 f5-l lh-copy">
                   TravelTongue is a web app that allows users to discover local
                   dishes from around the world.{' '}
@@ -89,66 +100,81 @@ export default class Projects extends Component {
             </div>
             {/* </a> */}
           </article>
+          {/*ARTCOLLECT STARTS HERE*/}
+          <br></br>
           <article class="bb b--black-10">
-            <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
-              <div class="flex flex-column flex-row-ns">
-                <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                  <img
-                    src={artcollect}
-                    class="db"
-                    alt="Photo of a warehouse with stacked shelves."
-                  />
-                </div>
-                <div class="w-100 w-60-ns pl3-ns">
-                  <h1 class="f3 fw1 baskerville mt0 lh-title">ArtCollect</h1>
-                  <p class="f6 fw5 f5-l lh-copy">
-                    artCollect is an app that allows you to discover artworks
-                    and share your favorite pieces in your own collection.
-                  </p>
-                  <p class="f6 f5-l lh-copy">
-                    Developed a Rails API with RESTful endpoints for users,
-                    artworks and comments
-                  </p>
-                  <p class="f6 f5-l lh-copy">
-                    Utilized JSON Web Tokens and local storage to store
-                    encrypted user information client-side and bcrypt
-                    server-side
-                  </p>
-                  <p class="f6 f5-l lh-copy">
-                    Built out full-stack Create, Read, Update and Delete actions
-                    to give comprehensive functionality
-                  </p>
-                  <p class="f6 f5-l lh-copy">
-                    Implemented the StackGrid CSS library to create a responsive
-                    image gallery
-                  </p>
-                  <p class="f6 f5-l lh-copy">
-                    Managed state, props and store in React and Redux for
-                    scalability{' '}
-                  </p>
-
-                  <p class="f6 fw5 f5-l lh-copy">
-                    See it live by running both front and backend below:{' '}
-                  </p>
-                  <p>
-                    <a
-                      target="_blank"
-                      href="https://artcollect-frontend.netlify.app/"
-                    >
-                      frontend
-                    </a>{' '}
-                    <a
-                      target="_blank"
-                      href="https://artcollect-backend.herokuapp.com/"
-                    >
-                      backend
-                    </a>
-                  </p>
-
-                  {/* <p class="f6 lh-copy mv0">By Robin Darnell</p> */}
-                </div>
+            {/* <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0"> */}
+            <p></p>
+            <p></p>
+            <p></p>
+            <div class="flex flex-column flex-row-ns">
+              <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                <img
+                  src={artcollect}
+                  class="db"
+                  alt="Photo of a warehouse with stacked shelves."
+                />
               </div>
-            </a>
+              {/*TEXT STARTS HERE*/}
+              <div class="w-100 w-60-ns pl3-ns">
+                <h1 class="f3 fw1 baskerville mt0 lh-title">
+                  ArtCollect{' '}
+                  <a
+                    target="_blank"
+                    href="https://github.com/bnfetterley/artcollect_frontend"
+                  >
+                    <img
+                      class="w2 h2 w2-ns h2-ns br-100"
+                      src="https://image.flaticon.com/icons/svg/2111/2111432.svg"
+                    />
+                  </a>
+                </h1>{' '}
+                <p class="f6 fw5 f5-l lh-copy">
+                  ArtCollect is an app that allows you to discover artworks and
+                  share your favorite pieces in your own collection.
+                </p>
+                <p class="f6 f5-l lh-copy">
+                  Developed a Rails API with RESTful endpoints for users,
+                  artworks and comments
+                </p>
+                <p class="f6 f5-l lh-copy">
+                  Utilized JSON Web Tokens and local storage to store encrypted
+                  user information client-side and bcrypt server-side
+                </p>
+                <p class="f6 f5-l lh-copy">
+                  Built out full-stack Create, Read, Update and Delete actions
+                  to give comprehensive functionality
+                </p>
+                <p class="f6 f5-l lh-copy">
+                  Implemented the StackGrid CSS library to create a responsive
+                  image gallery
+                </p>
+                <p class="f6 f5-l lh-copy">
+                  Managed state, props and store in React and Redux for
+                  scalability{' '}
+                </p>
+                <p class="f6 fw5 f5-l lh-copy">
+                  See it live by running both front and backend below:{' '}
+                </p>
+                <p>
+                  <a
+                    target="_blank"
+                    href="https://artcollect-frontend.netlify.app/"
+                  >
+                    frontend
+                  </a>{' '}
+                  <a
+                    target="_blank"
+                    href="https://artcollect-backend.herokuapp.com/"
+                  >
+                    backend
+                  </a>
+                  <p></p>
+                </p>
+                {/* <p class="f6 lh-copy mv0">By Robin Darnell</p> */}
+              </div>
+            </div>
+            {/* </a> */}
           </article>
           {/* <article class="bb b--black-10">
             <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
