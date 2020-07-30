@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "autoprefixer": "^9.8.0",
     "file-loader": "^6.0.0",
-    "homepage": "http://www.brifetterley.com/",
+    "homepage": "https://github.com/bnfetterley/bnfetterley.github.io",
     "gh-pages": "^3.1.0",
     "pdfreader": "^1.0.7",
     "react": "^16.13.1",
