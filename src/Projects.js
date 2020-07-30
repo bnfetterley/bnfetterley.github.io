@@ -5,17 +5,17 @@ import artcollect from './images/artcollect.jpg';
 import NewWindow from 'react-new-window';
 
 export default class Projects extends Component {
-  onclicklinks() {
-    // console.log('event hit');
+  // onclicklinks() {
+  //   // console.log('event hit');
 
-    window.open(
-      'https://traveltongue-backend.herokuapp.com/',
-      'https://traveltongue.netlify.app'
-    );
-    // window.open('https://traveltongue.netlify.app');
+  //   window.open(
+  //     'https://traveltongue-backend.herokuapp.com/',
+  //     'https://traveltongue.netlify.app'
+  //   );
+  //   // window.open('https://traveltongue.netlify.app');
 
-    // <NewWindow url='https://traveltongue.netlify.app'/>
-  }
+  //   // <NewWindow url='https://traveltongue.netlify.app'/>
+  // }
   render() {
     return (
       <div>
@@ -41,7 +41,7 @@ export default class Projects extends Component {
                   alt="Snapshot photo of a webpage"
                 />
               </div>
-              <div onClick={this.onclicklinks} class="w-100 w-60-ns pl3-ns">
+              <div class="w-100 w-60-ns pl3-ns">
                 <p></p>
                 <h1 class="f3 fw1 baskerville mt0 lh-title">
                   TravelTongue{' '}
