@@ -80,9 +80,7 @@ export default class Projects extends Component {
                   Managed state, props and store in React and Redux for
                   scalability
                 </p>
-                <p class="f6 fw5 f5-l lh-copy">
-                  See it live by running both front and backend below:{' '}
-                </p>
+                <p class="f6 fw5 f5-l lh-copy">See it live: </p>
                 <p>
                   <a target="_blank" href="https://traveltongue.netlify.app">
                     frontend
@@ -153,9 +151,7 @@ export default class Projects extends Component {
                   Managed state, props and store in React and Redux for
                   scalability{' '}
                 </p>
-                <p class="f6 fw5 f5-l lh-copy">
-                  See it live by running both front and backend below:{' '}
-                </p>
+                <p class="f6 fw5 f5-l lh-copy">See it live: </p>
                 <p>
                   <a
                     target="_blank"

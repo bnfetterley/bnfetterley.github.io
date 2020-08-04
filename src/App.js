@@ -35,8 +35,7 @@ function App() {
           </p>
           <p class="lh-copy gold">
             Ruby | Ruby on Rails | Active Record | OOP | Node.js | Express | SQL
-            | PostgreSQL | JavaScript | React.js | Redux | React Native | HTML |
-            CSS
+            | PostgreSQL | JavaScript | React.js | Redux | HTML | CSS
           </p>
         </div>
       </article>

@@ -10,7 +10,7 @@ export default class Resume extends Component {
         <Nav />
         <a
           target="_blank"
-          href="https://docs.google.com/document/d/1Hp9I1jtazPVf6t7Ec6thldsELQn-x-hyd5iW7B8QEvo/edit?usp=sharing"
+          href="https://drive.google.com/file/d/18ubRPn8GMaDUWBi_Tl5BZcAywGxINfce/view?usp=sharing"
           class="menupics"
         >
           <img
