@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f361e03.chunk.css",
+    "main.js": "/static/js/main.55b22871.chunk.js",
+    "main.js.map": "/static/js/main.55b22871.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fc13a78.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fc13a78.js.map",
+    "static/js/2.a2a460e6.chunk.js": "/static/js/2.a2a460e6.chunk.js",
+    "static/js/2.a2a460e6.chunk.js.map": "/static/js/2.a2a460e6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.12a2911c79dc9527fb97d02c2cc9fafe.js": "/precache-manifest.12a2911c79dc9527fb97d02c2cc9fafe.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a2a460e6.chunk.js.LICENSE.txt": "/static/js/2.a2a460e6.chunk.js.LICENSE.txt",
+    "static/media/artcollect.064de741.jpg": "/static/media/artcollect.064de741.jpg",
+    "static/media/headshot.3371c442.png": "/static/media/headshot.3371c442.png",
+    "static/media/resume.cf1ac951.png": "/static/media/resume.cf1ac951.png",
+    "static/media/traveltongue.cc03ff92.jpg": "/static/media/traveltongue.cc03ff92.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fc13a78.js",
+    "static/js/2.a2a460e6.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.55b22871.chunk.js"
+  ]
+}
